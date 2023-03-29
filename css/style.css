@@ -3,21 +3,25 @@
     margin: 0;
 }
 body{
-    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Circe', sans-serif;
     color: #353d43;
     padding-top: 152px;
 }
 .container{
-    max-width: 1170px;
+    max-width: 1344px;
     margin: 0 auto;
     padding: 0 15px;
 }
 .container_wide{
-    max-width: 1300px;
+    max-width: 1344px;
     margin: 0 auto;
     padding: 0 15px;
 }
-
+.maxwidth-theme{
+    max-width: 1344px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 /* header */
 
 header.header {
@@ -57,7 +61,7 @@ header.header {
 .searh__label{
     display: flex;
     gap: 12px;
-    
+
 }
 .search__input{
     max-width: 50px;
@@ -108,7 +112,7 @@ footer.footer{
      background-color: #f1f4f5;
      border-top: 1px solid #eaeff1;
      padding: 63px 0 49px;
-     
+
 }
 
 .footer__top{
@@ -143,7 +147,7 @@ footer.footer{
 }
 
 .subscription__arrow{
-    position: absolute; 
+    position: absolute;
     right: 16px;
     top: 50%;
     transform: translateY(-50%);
