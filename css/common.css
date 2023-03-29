@@ -1,0 +1,15 @@
+.svg-to-black path{
+    transition: 0.3s ease all;
+}
+.svg-to-black path{
+    fill: rgba(0, 0, 0, .5);
+}
+.svg-to-black:hover path{
+    fill: black;
+}
+.text-to-black:hover{
+    color: #222;
+}
+.text-to-main:hover{
+    color: #0dbc91;
+}
