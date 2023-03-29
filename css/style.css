@@ -3,8 +3,24 @@
     margin: 0;
 }
 body{
-    background: red;
+    font-family: 'Circe',Arial,sans-serif;
+    color: #353d43;
 }
 .container{
     max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
+.container_wide{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header */
+
+header.header{
+    
+}
+
+/* end header */
