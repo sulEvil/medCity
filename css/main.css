@@ -66,6 +66,7 @@
     padding-bottom: 124px;
     overflow: hidden;
     max-width: 1920px;
+    margin: 0 auto;
 }
 .board__info{
     padding-top: 85px;
@@ -422,7 +423,7 @@
     width: 100%;
     margin-bottom: 16px;
     margin-top: auto;
-    
+
 }
 .programs__more{
     text-transform: uppercase;
@@ -449,7 +450,7 @@
 }
 .programs__burr{
     position: absolute;
-    border: 25px solid transparent; 
+    border: 25px solid transparent;
     border-top: 25px solid #eff1f3;
     top: -8px;
 }
@@ -476,7 +477,7 @@
     display: flex;
     justify-content: space-between;
     gap: 70px;
-    
+
 }
 .droppers__subtitle{
     color: #3399ff;
@@ -493,7 +494,7 @@
     font-size: 14px;
 }
 .question{
-    background-color: #eff1f3;;
+    background-color: #eff1f3;
     padding: 32px 0;
 }
 .question__wrapper{
@@ -522,11 +523,11 @@
     font-size: 16px;
     letter-spacing: 0.5px;
     margin-bottom: 24px;
-    
+
 }
 .question__text img{
     margin-right: 12px;
-    
+
 }
 .question__right{
     max-width: 560px;
@@ -534,4 +535,172 @@
 }
 .question__btn{
     margin-bottom: 24px;
+}
+.diagnostic{
+    background-color: #eff1f3;
+    padding: 62px 0;
+}
+.diagnostic__wrapper{
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 890px;
+    margin: 0 auto;
+}
+.diagnostic__left{
+    padding: 42px;
+    flex-grow: 1;
+    flex-basis: 35%;
+}
+
+.diagnostic__title{
+    font-size: 26px;
+    line-height: 1.35;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 14px;
+}
+.diagnostic__subtitle{
+    font-size: 14px;
+    line-height: 1.35;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.procedure{
+    background-image: url("./../assets/procedure/background_main.png");
+    background-color: #eff1f3;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.procedure__title{
+    color: #000000;
+    font-size: 54px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.procedure__wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.procedure__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 86px 86px 86px 86px 86px 86px;
+    justify-content: center;
+    gap: 12px;
+}
+.procedure__item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.procedure__item:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+.procedure__item:nth-child(2){
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+.procedure__item:nth-child(3){
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+.procedure__item:nth-child(4){
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.procedure__item:nth-child(5){
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.procedure__icon{
+    margin-bottom: 8px;
+}
+.procedure__desc{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.procedure__background{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    top: 50%;
+}
+.schedule{
+    background-color: #eff1f3;
+    padding: 150px 0;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.schedule__btn .btn__search{
+    margin-left: 12px;
+}
+.schedule__title{
+    font-size: 52px;
+    line-height: 1.15;
+    font-weight: 700;
+    margin-bottom: 52px;
+}
+.schedule__items{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+.schedule__item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.schedule__icon{
+    flex-basis: 98px;
+}
+.schedule__icon img{
+    object-fit: contain;
+}
+.schedule__desc{
+    font-size: 14px;
+    line-height: 1.55;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.schedule__left{
+    position: relative;
+    z-index: 2;
+    padding-left: 8%;
+}
+.schedule__right{
+    position: absolute;
+    right: 16%;
+    top: 10%;
+    bottom: 0;
+
 }
